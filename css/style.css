@@ -185,6 +185,7 @@ main .box-ps5:hover .box-hover{
 /* plus */
 .plus-section {
     background-color: #bebcbb;
+    height: 400px;
 }
 
 .box-plus {
@@ -195,11 +196,6 @@ main .box-ps5:hover .box-hover{
     object-fit: contain;
     width: 100%;
     height: 80px;
-}
-
-.container-banner-plus {
-    width: 100%;
-    height: 300px;
 }
 
  .container-banner-plus img {
@@ -218,6 +214,7 @@ main .box-ps5:hover .box-hover{
 
 .playstation-now{
     background-color: #161c3b;
+    height: 500px;
 }
 
 /* FOOTER */
