@@ -1,6 +1,7 @@
 /* GENERAL */
 body{
     font-family: Arial sans-serif;
+    padding-top: 100px;
 }
 
 /* UTILITY */
@@ -47,14 +48,22 @@ header .nav-item .btn-stile{
     font-size: 18px;
 }
 
-
-
-
-
-
-
-
 /* HERO */
+.hero {
+    width: 100%;
+    height: 636px;
+    background-image: url("/img/jumbo-bg.png");
+    background-position: 50% -50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .container-returnal img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
 
 /* MAIN */
 
