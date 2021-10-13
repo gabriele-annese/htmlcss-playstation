@@ -106,7 +106,19 @@ main .box-ps5 img  {
 .box-ps5{
     width: 150px;
     height: 140px;
+    margin-bottom: 20px;
+    opacity: .7;
+    cursor: pointer;
 }
+
+.box-hover{
+    padding-bottom: 10px;
+}
+
+main .box-ps5:hover .box-hover{
+    border-bottom: 3px solid #0070d1;
+}
+
 
 
 
