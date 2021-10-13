@@ -1,0 +1,61 @@
+/* GENERAL */
+body{
+    font-family: Arial sans-serif;
+}
+
+/* UTILITY */
+.pd-r{
+    padding-right: 20px;
+}
+
+/* HEADER */
+.main-header .logo {
+    width: 100px;
+    height: 50px;
+    padding: 10px 15px;
+}
+
+header .navbar-sitle {
+    font-family: Helvetica sans-serif;
+}
+
+header .navbar-light .navbar-nav .nav-a-stile{
+    color: #000;
+}
+header .navbar-light .navbar-nav .nav-a-stile:hover {
+    color: #0070d1;
+}
+
+header .nav-item .container-arrow{
+    position: relative;
+}
+
+header .nav-item .arrow-icon {
+    width: 10px;
+    height: 15px;
+}
+
+header .nav-item .icon-lens{
+    width: 30px;
+    height: 30px;
+}
+
+header .nav-item .btn-stile{
+    border-radius: 20px;
+    padding: 10px 1rem;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/* HERO */
+
+/* MAIN */
+
+/* FOOTER */
