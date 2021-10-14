@@ -67,17 +67,38 @@ header .navbar-light .navbar-nav .nav-a-stile:hover {
 
 header .nav-item .container-arrow{
     position: relative;
+    cursor: pointer;
 }
 
 header .nav-item .arrow-icon {
-    width: 10px;
+    width: 20px;
     height: 15px;
+    position: absolute;
+    top: 5px;
 }
 
 header .nav-item .icon-lens{
     width: 30px;
     height: 30px;
 }
+
+header .nav-item .arrow-icon2 {
+    width: 20px;
+    height: 15px;
+}
+
+header .nav-item .container-arrow:hover .arrow-icon {
+   position: relative;
+   visibility: hidden;
+}
+
+header .nav-item .container-arrow:hover .arrow-icon2 {
+    position: absolute;
+    top: 5px;
+    left: 0;
+ }
+
+
 
 /* HERO */
 .hero {
@@ -107,6 +128,13 @@ main .box img {
     height: 100%;
     border-radius: 20px;
 }
+
+main .box:hover{
+    border: 3px solid #00439c;
+    border-radius: 20px;
+    padding: 3px 3px;
+}
+
 
 main .info-ps5 img,
 main .box-ps5 img  {
