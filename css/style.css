@@ -46,6 +46,11 @@ body .btn-stile{
     margin-top: 80px;
 }
 
+.title-main{
+    font-size: 30px;
+    font-weight: 600;
+}
+
 /* COLOR-TEXT */
 .cl-p{
     color: #0072ce;
