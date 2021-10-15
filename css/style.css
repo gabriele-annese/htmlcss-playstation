@@ -119,7 +119,7 @@ header .nav-item .container-arrow:hover .arrow-icon2 {
 .hero {
     width: 100%;
     height: 750px;
-    background-image: url("/img/jumbo-bg.png");
+    background-image: url("../img/jumbo-bg.png");
     background-position: 50% -50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,9 +182,8 @@ main .box-ps5:hover .box-hover{
 
 /* hero2 */
 .hero2 {
-    /* width: 100%; */
     height: 750px;
-    background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: 50% -50%;
     background-repeat: no-repeat;
     background-size: cover;
